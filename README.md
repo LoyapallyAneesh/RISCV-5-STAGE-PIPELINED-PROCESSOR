@@ -1,4 +1,3 @@
-# RISCV-5-STAGE-PIPELINED-PROCESSOR
 # RISC-V Pipelined Processor
 
 ## Overview
