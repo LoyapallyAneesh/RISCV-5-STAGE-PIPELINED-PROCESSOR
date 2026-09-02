@@ -62,6 +62,9 @@ Branch and jump instructions change the normal sequential flow of execution.When
 The design therefore uses pipeline flushing for control hazards.
 
 The implementation was verified using: BEQ, BNE, JAL, JALR
+## Results and Testbench
+
+The testbench file is uploaded along with all the main code files in the file folder and the expected output for the used testbench is uploaded in the docs folder as an image.
 
 ## Conclusion
 
