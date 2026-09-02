@@ -19,7 +19,13 @@ The processor was developed and verified using a comprehensive simulation testbe
 
 ---
 
-## Architecture
+## Datapath Diagram
+
+<p align="center">
+  <img src="docs/pipelined_datapath.png" alt="Pipelined RISC-V Processor Datapath" width="100%">
+</p>
+
+> **Note:** For clarity, the datapath diagram does not explicitly show every signal used in the implementation. A few signals are also omitted or not physically connected in the diagram to avoid excessive visual complexity. Signals that carry data from later pipeline stages, particularly those involved in handling control hazards, are represented using the same colour to indicate their logical relationship and data flow, even when their complete connections are not shown.
 
 ## Supported Instructions
 
